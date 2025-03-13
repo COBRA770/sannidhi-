@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.time {
+    margin: 0 20px;
+}
+
+.time span {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.balloons {
+    display: flex;
+    justify-content: center;
+}
+
+.balloon {
+    width: 60px;
+    height: 80px;
+    background-color: #ff99c2;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
